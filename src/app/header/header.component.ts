@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div class="container">
+    <div class="header">
       <img src="assets/icon.png" >
       <p>LD Mart</p>
     </div>
