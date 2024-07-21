@@ -1,4 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+app-header {
+    height: 50px;
+    background-color: #f8f9fa;
+}
+
+app-menu {
+    width: 200px;
+    background-color: #e9ecef;
+}
+
+app-product-listing {
+    flex: 1;
+    background-color: #ffffff;
+}
