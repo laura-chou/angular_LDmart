@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <div class="header">
-      <img src="assets/icon.png" >
-      <p>LD Mart</p>
+      <img src="assets/logo.png" >
     </div>
   `,
   styleUrl: './header.component.css'

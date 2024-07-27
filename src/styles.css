@@ -12,7 +12,7 @@ body {
 }
 
 app-header {
-    height: 75px;
+    height: 60px;
     width: 100%;
     position: fixed;
     background-color: #f8f9fa;
