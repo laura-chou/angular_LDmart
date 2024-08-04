@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { ProductInfo } from '../product-info';
 
 @Component({
@@ -34,17 +34,5 @@ import { ProductInfo } from '../product-info';
   styleUrl: './product.component.css'
 })
 export class ProductComponent {
-  @Input() productInfo: ProductInfo = {
-    id: 1,
-    name: "White Pepper",
-    description: "Organic white pepper.",
-    mainCategoryId: 1,
-    mainCategoryName: "Grocery",
-    subCategoryId: 1,
-    subCategoryName: "Herbs & Spices",
-    price: 1.99,
-    inventory: 999,
-    brandId: 1,
-    brandName: 'Simply Organics'
-  };
+  @Input() productInfo!: ProductInfo;
 }
